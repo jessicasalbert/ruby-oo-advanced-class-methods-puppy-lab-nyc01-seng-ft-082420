@@ -16,11 +16,11 @@ class Dog
     @@all
   end
   
-  def print_all
+  def self.print_all
     self.all.each { |dog| puts dog }
   end
   
-  def clear_all
+  def self.clear_all
     @@all = []
   end
   
