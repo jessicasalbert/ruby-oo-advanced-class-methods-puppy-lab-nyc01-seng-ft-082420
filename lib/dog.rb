@@ -20,4 +20,8 @@ class Dog
     self.all.each { |dog| puts dog }
   end
   
+  def clear_all
+    @@all = []
+  end
+  
 end
