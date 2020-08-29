@@ -10,4 +10,8 @@ class Dog
     @@all
   end
   
+  def print_all
+    self.all.each { |dog| puts dog }
+  end
+  
 end
